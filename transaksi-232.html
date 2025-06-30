@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Katalog Buku</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Dansscatalogue Books</h1>
+    <nav>
+      <a href="home-232.html">Beranda</a>
+      <a href="profile-232.html">Profile</a>
+      <a href="transaksi-232.html"></a>Transaksi</a>
+      <a href="login-232.html">Login</a>
+    </nav>
+  </header>
+  <main>
+    <main class="transaksi-page">
+  <section class="transaksi-card">
+    <h2>Daftar Transaksi</h2>
+    <table class="transaksi-table">
+      <thead>
+        <tr>
+          <th>Nama Pembeli</th>
+          <th>Judul Buku</th>
+          <th>Harga</th>
+          <th>Jumlah</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody id="tabelTransaksi">
+      </tbody>
+    </table>
+  </section>
+
+  <section class="form-card">
+    <h3>Form Transaksi</h3>
+    <form id="formTransaksi">
+      <input type="text" id="nama" placeholder="Nama Pembeli" required />
+      <input type="text" id="judul" placeholder="Judul Buku" required />
+      <input type="number" id="harga" placeholder="Harga" required />
+      <input type="number" id="jumlah" placeholder="Jumlah" required />
+      <button type="submit">Tambah</button>
+    </form>
+  </section>
+</main>
+  </main>
+</body>
+</html>
